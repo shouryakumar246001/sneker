@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Shield, Zap, Users, ChevronRight } from 'lucide-react';
 import LiveFeed from './LiveFeed';
-import Pricing from './Pricing';
+
 
 interface LandingProps {
   onStartCheck: () => void;
@@ -95,8 +95,6 @@ export default function Landing({ onStartCheck }: LandingProps) {
         </div>
 
         <LiveFeed />
-
-        <Pricing />
 
         <footer className="container mx-auto px-4 py-12 text-center text-gray-500 border-t border-white/5">
           <p>&copy; 2024 LegitCheck AI. All rights reserved.</p>
